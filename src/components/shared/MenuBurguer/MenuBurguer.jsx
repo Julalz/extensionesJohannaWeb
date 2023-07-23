@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Popup from "../Popup/PopUp";
 import classnames from "classnames";
 import "./menuBurguer.css";

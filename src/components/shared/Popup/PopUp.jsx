@@ -1,11 +1,14 @@
 import "./popUp.css";
-function PopUp() {}
-<div className="lis-popup-container">
-  <ul>
-    <li>INSCRIBETE</li>
-    <li>CLASES</li>
-    <li>ENCUENTRA TU GYM</li>
-    <li>QUIENES SOMOS</li>
-  </ul>
-</div>;
+function PopUp() {
+  return (
+    <div className="popup-container">
+      <ul className="ulPopup-container">
+        <li>Home</li>
+        <li>Servicios</li>
+        <li>Financia tus Extensiones</li>
+        <li>Quienes somos</li>
+      </ul>
+    </div>
+  );
+}
 export default PopUp;

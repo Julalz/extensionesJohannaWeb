@@ -1,5 +1,31 @@
-.lis-popup-container {
-  width: 40px;
-  height: 69px;
-  background-color: black;
+.popup-container {
+  position: fixed;
+  flex-direction: column;
+  gap: 45px;
+  top: 65px;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  background-size: cover;
+  background-color: var(--mainColor);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.ulPopup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px #000000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
