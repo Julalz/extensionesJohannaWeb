@@ -1,5 +1,16 @@
-.backgroundHome-carrusel img {
+.img img {
+  padding-left: 5px;
+  width: 100%;
+  height: 250px;
   object-fit: contain;
-  height: 300px;
-  width: 300px;
+  box-shadow: 1px purple;
+}
+.parrafos {
+  position: relative;
+  top: 76px;
+  padding: 5px;
+}
+.backgroundHome-carrusel {
+  position: relative;
+  top: 86px;
 }

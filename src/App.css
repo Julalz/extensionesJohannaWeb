@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
 @font-face {
   font-family: "Lowvetica";
   src: url("../public/fonts/LowveticaBold.ttf") format("truetype");
@@ -7,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: "Fjalla One";
 }
 .img-background {
   width: 100%;

@@ -1,5 +1,6 @@
 import Slider from "react-slick";
 import Header from "../../components/shared/Header/Header";
+import QuienesSomos from "../Quienes/Quienes";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -23,6 +24,7 @@ function Home() {
       </header>
 
       <body>
+        <p className="parrafos">Nuestros Trabajos mas recientes</p>
         <div className="backgroundHome-carrusel">
           <Slider {...settings}>
             <div className="img">
@@ -47,6 +49,8 @@ function Home() {
               <img src="../../../public/images/IMG_1171.jpg" alt="Imagen 4" />
             </div>
           </Slider>
+
+          <QuienesSomos />
         </div>
       </body>
       <footer></footer>
