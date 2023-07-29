@@ -26,3 +26,8 @@
   text-align: center;
   list-style-type: none;
 }
+.ulPopup-container li:hover {
+  width: 100%;
+  border-radius: 80%;
+  background-color: var(--mainShadowColor);
+}

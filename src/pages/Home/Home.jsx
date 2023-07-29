@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "./home.css";
+import Personal from "../../components/Personal/Personal";
+import BarraSeparador from "../../components/shared/BarraSeparador/Barraseparador";
 
 function Home() {
   const settings = {
@@ -24,7 +26,7 @@ function Home() {
       </header>
 
       <body>
-        <p className="parrafos">Nuestros Trabajos mas recientes</p>
+        <p className="parrafos">Nuestros Trabajos más recientes</p>
         <div className="backgroundHome-carrusel">
           <Slider {...settings}>
             <div className="img">
@@ -51,6 +53,8 @@ function Home() {
           </Slider>
 
           <QuienesSomos />
+          <Personal />
+          <BarraSeparador />
         </div>
       </body>
       <footer></footer>

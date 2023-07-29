@@ -1,3 +1,4 @@
+import BarraSeparador from "../../components/shared/BarraSeparador/Barraseparador";
 import Button from "../../components/shared/button/Button";
 
 import "./quienes.css";
@@ -21,8 +22,9 @@ function QuienesSomos() {
       <div>
         <Button text="Instagram" />
         <Button text={"Facebook"} />
+        <Button text={"Reservar"} />
       </div>
-      <div className="BarraSeparador"></div>
+      <BarraSeparador />
     </>
   );
 }
