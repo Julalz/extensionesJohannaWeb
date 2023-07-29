@@ -7,7 +7,8 @@
   width: 100vw;
   height: 100px;
   background-size: cover;
-  background-color: var(--mainColor);
+  background-color: black;
+  color: var(--mainColor);
   background-position: center;
   display: flex;
   justify-content: center;
@@ -29,5 +30,5 @@
 .ulPopup-container li:hover {
   width: 100%;
   border-radius: 80%;
-  background-color: var(--mainShadowColor);
+  background-color: var(--mainSecondShadow);
 }

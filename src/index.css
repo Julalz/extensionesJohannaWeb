@@ -1,5 +1,6 @@
 :root {
   --mainColor: #9d8289;
   --mainShadowColor: #8b747c;
+  --mainSecondShadow: #2c2427;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }

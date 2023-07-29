@@ -1,11 +1,12 @@
 .button {
   width: 140px;
-  background-color: var(--mainColor);
+  background-color: black;
   border: none;
   padding: 20px;
   margin: 5px;
   text-align: center;
   font-family: "Roboto";
+  color: var(--mainColor);
   font-size: medium;
   font-weight: bold;
   cursor: pointer;
