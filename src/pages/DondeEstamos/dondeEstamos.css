@@ -1,5 +1,9 @@
 .GoogleMaps-container {
+  position: relative;
   width: 100%;
-  height: 200px;
+  height: 500px;
   background-color: black;
+}
+.Text-maps {
+  color: var(--mainColor);
 }

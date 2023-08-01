@@ -1,31 +1,4 @@
-// import "./dondeEstamos.css";
-// import { useJsApiLoader, GoogleMap } from "@react-google-maps/api";
-
-// const position = { lat: 42.22959137264901, lng: -8.707421542624628 };
-
-// function DondeEstamos() {
-//   const apiKey = "AIzaSyD2ab-jU05HKPdeAJovWho688RAjo9M09M";
-//   const { isLoaded } = useJsApiLoader({
-//     googleMapsApiKey: apiKey,
-//   });
-
-//   if (!isLoaded) {
-//     return <div>Cargando mapa...</div>;
-//   }
-
-//   return (
-//     <div className="GoogleMaps-container">
-//       <GoogleMap
-//         center={position}
-//         zoom={15}
-//         mapContainerClassName={{ with: "100%", height: "100%" }}
-//       ></GoogleMap>
-//     </div>
-//   );
-// }
-
-// export default DondeEstamos;
-
+import "./dondeEstamos.css";
 import { useEffect } from "react";
 import { useJsApiLoader } from "@react-google-maps/api";
 
@@ -59,9 +32,24 @@ function DondeEstamos() {
   }
 
   return (
-    <div>
+    <div className="GoogleMaps-container">
+      <p className="Text-maps">
+        Encuentranos en el Horario de 10:00 hasta las 20:00
+      </p>
       {isLoaded ? (
-        <div id="map" style={{ width: "100%", height: "400px" }}></div>
+        <div
+          id="map"
+          style={{
+            position: "absolute",
+            left: "50%",
+            transform: "translateX(-50%)",
+            margin: "26px",
+            width: "80%",
+            height: "400px",
+            borderRadius: "15px",
+            boxShadow: "0px 1px 20px #9d8289, 0px 1px 20px #9d8289",
+          }}
+        ></div>
       ) : (
         <div>Cargando mapa...</div>
       )}
