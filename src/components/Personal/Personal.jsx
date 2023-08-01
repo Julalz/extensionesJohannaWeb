@@ -2,7 +2,7 @@ import "./personal.css";
 function Personal() {
   return (
     <div className="Img-container">
-      <ul>
+      <ul className="personal-ul">
         <li>
           <img src="../../../public/images/LUCHO PNG.png" alt="Lucho"></img>
         </li>

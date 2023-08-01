@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./home.css";
 import Personal from "../../components/Personal/Personal";
 import BarraSeparador from "../../components/shared/BarraSeparador/Barraseparador";
+import Servicios from "../Servicios/Servicios";
+import DondeEstamos from "../DondeEstamos/DondeEstamos";
 
 function Home() {
   const settings = {
@@ -55,6 +57,9 @@ function Home() {
           <QuienesSomos />
           <Personal />
           <BarraSeparador />
+          <Servicios />
+          <BarraSeparador />
+          <DondeEstamos />
         </div>
       </body>
       <footer></footer>

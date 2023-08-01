@@ -1,0 +1,20 @@
+.Services-Container {
+  margin-top: 20px;
+}
+.Services-Container h2 {
+  margin: 17px;
+}
+.ulServices-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+.ulServices-container img {
+  object-fit: fill;
+  border-radius: 7px;
+  width: 350px;
+  height: 400px;
+}
