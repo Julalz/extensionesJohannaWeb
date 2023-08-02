@@ -3,6 +3,7 @@ import Header from "../../components/shared/Header/Header";
 import QuienesSomos from "../Quienes/Quienes";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+console.log(Slider);
 
 import "./home.css";
 import Personal from "../../components/Personal/Personal";

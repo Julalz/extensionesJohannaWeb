@@ -35,6 +35,7 @@ function DondeEstamos() {
     <div className="GoogleMaps-container">
       <p className="Text-maps">
         Encuentranos en el Horario de 10:00 hasta las 20:00
+        <p>Telefonos : 605 11 38 27 | 986 192 785</p>
       </p>
       {isLoaded ? (
         <div
@@ -42,7 +43,7 @@ function DondeEstamos() {
           style={{
             position: "absolute",
             left: "50%",
-            transform: "translateX(-50%)",
+            transform: "translateX(-57%)",
             margin: "26px",
             width: "80%",
             height: "400px",

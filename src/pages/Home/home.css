@@ -12,5 +12,12 @@
 }
 .backgroundHome-carrusel {
   position: relative;
+  width: 100%;
   top: 86px;
+}
+body {
+  width: 100%;
+}
+.slick-track {
+  width: 100vw;
 }
