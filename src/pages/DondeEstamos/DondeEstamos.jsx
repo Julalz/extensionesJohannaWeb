@@ -34,8 +34,9 @@ function DondeEstamos() {
   return (
     <div className="GoogleMaps-container">
       <p className="Text-maps">
-        Encuentranos en el Horario de 10:00 hasta las 20:00
+        Encuentranos en el Horario de 10:00 hasta las 20:00 L a V
         <p>Telefonos : 605 11 38 27 | 986 192 785</p>
+        <p>¿A que esperas a sentirte radiante?</p>
       </p>
       {isLoaded ? (
         <div

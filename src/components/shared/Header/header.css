@@ -6,7 +6,7 @@
   height: 75px;
   background-color: black;
   position: fixed;
-  box-shadow: 0.5px 1px 5px rgba(0, 0, 0, 0.47);
+  box-shadow: 0.5px 4px 20px rgba(196, 118, 144, 0.47);
   z-index: 9999;
 }
 .logo-img {

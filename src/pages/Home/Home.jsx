@@ -10,6 +10,7 @@ import Personal from "../../components/Personal/Personal";
 import BarraSeparador from "../../components/shared/BarraSeparador/Barraseparador";
 import Servicios from "../Servicios/Servicios";
 import DondeEstamos from "../DondeEstamos/DondeEstamos";
+import Footer from "../../components/shared/Footer/Footer";
 
 function Home() {
   const settings = {
@@ -61,6 +62,8 @@ function Home() {
           <Servicios />
           <BarraSeparador />
           <DondeEstamos />
+          <BarraSeparador />
+          <Footer />
         </div>
       </body>
       <footer></footer>

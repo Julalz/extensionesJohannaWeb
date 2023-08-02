@@ -16,7 +16,8 @@
   top: 86px;
 }
 body {
-  width: 100%;
+  background-image: url("../../../../public/images/background-extensiones.png");
+  object-fit: contain;
 }
 .slick-track {
   width: 100vw;

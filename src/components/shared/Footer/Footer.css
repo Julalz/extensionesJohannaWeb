@@ -1,0 +1,11 @@
+.Footer-container {
+  display: flex;
+  justify-content: center;
+  margin: 9px;
+  gap: 45px;
+  width: 100%;
+  height: 200px;
+}
+.Footer-container p {
+  font-size: 25px;
+}
